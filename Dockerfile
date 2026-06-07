@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM eclipse-temurin:17
 ADD target/github-actions.jar github-actions
 
 EXPOSE 8080
